@@ -1,0 +1,568 @@
+* {
+	padding: 0;
+	margin: 0;
+    box-sizing: border-box;
+}
+
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgb(108, 196, 244);
+	color: #fff;
+	padding: 10px;
+}
+.nav h1 {
+	margin: 0;
+	color: black;
+}
+.search-box {
+	flex: 1;
+	margin: 0 20px;
+}
+.search-box input[type="search"] {
+	height: 40px;
+	width: 93%;
+	padding: 10px;
+	background-color: #f7f7f8;
+	border: none;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+.navbar-nav {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+.navbar-nav li {
+	margin-right: 30px;
+}
+.navbar-nav li:last-child {
+	margin-right: 0;
+}
+.login-btn {
+	padding: 10px 20px;
+	background-color: #f2f6fa;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+.login-btn:hover {
+	background-color: #ddd;
+}
+
+.sideNavigationBar .closeButton {
+	position: absolute;
+	top: 10px;
+	right: 25px;
+	font-size: 20px;
+	margin-left: 50px;
+}
+
+.container1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 2% 5%;
+	padding: 0 80px;
+}
+
+.side1 h1 {
+    font-size: 42px;
+	margin-bottom: 10px;
+    margin-right: 20px;
+}
+.side1 h2 {
+	font-size: 25px;
+	margin: 18px 0;
+}
+
+.label1 {
+	font-size: 22px;
+	margin-top: 20px;
+	margin-bottom: 8px;
+}
+
+.input2 input{
+	width: 90%;
+	margin-bottom: 12px;
+    padding: 6px;
+}
+
+#input3{
+	text-align: center;
+    width: 45%;
+	margin-bottom: 12px;
+    padding: 6px;
+} 
+
+.side1 button{
+    width: 140px;
+    height: 30px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 130px;
+	border-color: black;
+	border-width: 1px;
+    background-color: rgb(108, 196, 244);
+}
+.side1 button a {
+    text-decoration: none;
+    color: black;
+}
+
+.booking {
+	height: 280px;
+	margin: 10px 140px;
+	background-color: rgb(108, 196, 244);
+	border-radius: 10px;
+}
+.book {
+	display: flex;
+	padding: 20px 50px;
+}
+.booking .wayToBook {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+	gap: 3rem;
+}
+.booking .wayToBook .book1 {
+	margin: 5px 5px;
+	max-width: 170px;
+	text-align: center;
+	border-radius: 50%;
+	padding: 20px 18px;
+	background-color: rgb(249, 249, 252);
+	box-shadow: 0 5px 10px rgb(108, 196, 244);
+	cursor: default;
+}
+.book button{
+	border-style: none;
+    width: 220px;
+    height: 35px;
+    font-weight: bold;
+    margin-left: 280px;
+}
+.book button a {
+    text-decoration: none;
+    color: black;
+}
+
+.container2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    text-wrap: wrap;
+	margin: 2% 5%;
+	padding: 0 80px;
+}
+.side4 h1 {
+    font-size: 35px;
+    margin-left: 30px;
+	margin-bottom: 10px;
+}
+.side4 p {
+	font-size: 20px;
+    margin-left: 30px;
+	padding: 10px 0;
+}
+.side4 button{
+    border-color: black;
+    width: 220px;
+    height: 32px;
+    font-weight: bold;
+	border-width: 1px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.side4 button a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 1060px) {
+
+	.side2 img {
+		width: 100px;
+		height: 90%;
+	}
+
+	.side1 h1 {
+		font-size: 20px;
+	}
+
+    .side3 img {
+		width: 250px;
+	}
+
+	.side4 h1 {
+		font-size: 25px;
+	}
+
+	.side1 p {
+		font-size: 17px;
+	}
+
+	.side4 p {
+		font-size: 14px;
+	}
+
+    .input1 .label1 {
+        font-size: 15px;
+		margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+	.navbar {
+		padding: 0 30px;
+	}
+	.container1 {
+		padding: 0;
+	}
+	.container2 {
+		padding: 0;
+	}
+
+	.side1 h1 {
+		font-size: 20px;
+	}
+	.side1 h2 {
+		font-size: 15px;
+	}
+
+	.side1 button {
+		margin-left: 40px;
+		margin-top: -2px;
+	}
+
+    .side2 img {
+		width: 100px;
+        height: 200px;
+	}
+
+    .side4 button {
+        width: 180px;
+    }
+
+	.booking {
+		margin: 30px 20px;
+		height: 230px;
+	}
+
+	.book h2{
+		font-size: 18px;
+		margin-left: -35px;
+	}
+
+	.book button {
+		margin-left: 10px;
+	}
+
+	.booking .wayToBook {
+		display: flex;
+		justify-content: center;
+	}
+
+	.booking .wayToBook .book1 {
+		font-size: 10px;
+		max-width: 100px;
+		max-height: 150px;
+		text-align: center;
+		border-radius: 50%;
+		padding: 20px 18px;
+	}
+}
+
+.health-care {
+	padding: 0 80px;
+}
+
+.health-care h1 {
+    font-size: 30px;
+    margin-left: 60px;
+	font-weight: bolder;
+	margin-bottom: 30px;
+}
+
+.health-care p {
+    font-size: 18px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+.health-care button {
+    border-color: black;
+	border-width: 1px;
+    width: 140px;
+    height: 30px;
+    margin-left: 60px;
+    margin-bottom: 40px;
+}
+
+.health-care button a{
+    text-decoration: none;
+    color: black;
+}
+
+.specialist{
+	margin: auto;
+}
+
+.specialist .boxes {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+	gap: 2rem;
+}
+
+.specialist .boxes .box {
+	margin: 10px 10px;
+	max-width: 200px;
+	text-align: center;
+	border-radius: 10px;
+	padding: 20px 18px;
+	color: #141618;
+	box-shadow: 0 5px 10px rgb(106, 106, 108);
+	cursor: default;
+	
+}
+
+.feedback {
+	margin-bottom: 40px;
+}
+
+.feedback h1 {
+    font-size: 28px;
+    margin: 40px 60px;
+	margin-bottom: 30px;
+	padding: 0 80px;
+}
+.feedback .boxes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 2rem;
+}
+
+.feedback .boxes .box {
+	margin: 10px 10px;
+	max-width: 200px;
+	border-radius: 10px;
+	padding: 20px 18px;
+	color:#16161b;
+	box-shadow: 0 5px 10px rgb(161, 164, 172);
+	cursor: default;
+}
+
+.checked {
+	color: orange;
+}
+.person {
+	display: flex;
+}
+
+.person h3 {
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 6px;
+	margin-bottom: 8px;
+}
+
+#color1 {
+	background-color: rgb(68, 47, 205);
+}
+
+#color2 {
+	background-color: rgb(87, 210, 49);
+}
+
+#color3 {
+	background-color: rgb(219, 41, 38);
+}
+
+
+.person h4 {
+	margin-top: 8px;
+	margin-left: 16px;
+}
+
+.about span {
+	justify-content: flex-start;
+}
+
+
+@media screen and (max-width: 1060px) {
+
+	.input1 {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.side2 img {
+		width: 95%;
+		height: 90%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+
+	.health-care {
+		margin-left: -120px;
+	}
+
+	.feedback h1 {
+		margin-left: -60px;
+	}
+
+	section .box p {
+		font-size: 5px;
+	}
+
+    .specialist .boxes {
+        font-size: 20px;
+		display: flex;
+		flex-direction: row;
+		
+	}
+
+	.specialist .boxes .box {
+		max-width: 28%;
+	}
+
+	.feedback .boxes {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.feedback .boxes .box {
+		max-width: 28%;
+	}
+}
+
+
+/* Footer */
+.container3{
+	width: 100%;
+	margin: 0;
+}
+.footer{
+	background-color: rgb(108, 196, 244);
+    padding: 50px 30px;
+}
+.footer-logo{
+	display: flex;
+	padding: 0 100px;
+	margin-top: -30px;
+}
+.footer-logo input{
+	border-style: none;
+	border-width: 1px;
+    width: 200px;
+    height: 30px;
+	padding: 0 20px;
+	margin-top: 30px;
+    margin-left: 550px;
+    margin-bottom: 40px;
+}
+.footer-logo button{
+    width: 100px;
+    height: 30px;
+    font-weight: bolder;
+    margin-top: 30px;
+	border-style: none;
+	border-color: rgb(227, 224, 239);
+    background-color: rgb(237, 84, 237);
+}
+.footer-logo button a {
+    text-decoration: none;
+    color: white;
+}
+.row{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 0 100px;
+}
+ul{
+	list-style: none;
+}
+.footer-col{
+   width: 20%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 19px;
+	color: black;
+	text-transform: capitalize;
+	margin-top: 10px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col ul li a{
+	font-size: 15px;
+	margin-top: 8px;
+	color: black;
+	text-decoration: none;
+	font-weight: 300;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: white;
+	padding-left: 8px;
+}
+
+.row1 {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: -40px;
+}
+.row1 .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 30px;
+	margin-top: 12px;
+	border-radius: 50%;
+}
+
+@media(max-width: 767px){
+    .footer-col{
+          width: 50%;
+          margin-bottom: 30px;
+      }
+  }
+  
+  @media(max-width: 600px){
+  
+      .footer-logo{
+          padding: 0;
+      }
+  
+      .footer-logo input{
+          margin-top: 42px;
+          margin-left: 50px;
+          margin-bottom: 40px;
+      }
+  
+      .row{
+          margin-top: 20px;
+          margin-left: -80px;
+      }
+  
+      .footer-logo button{
+          margin-top: 42px;
+      }
+  
+      .footer-col{
+          width: 100%;
+      }
+  }
